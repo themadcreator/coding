@@ -1,5 +1,12 @@
 # Coding a website on github!
 
+### Setup your own repo.
+
+Create an account of github and "fork" this repository.
+
+In the instructions below, replace "themadcreator" with your own github username.
+
+
 ### Checkout code
 
 You only have to do this once at the start.
@@ -10,9 +17,11 @@ cd coding
 git checkout gh-pages
 ```
 
+
 ### Edit code
 
 Open a text editor and edit your code.
+
 
 ### Send code up to github
 

@@ -3,5 +3,6 @@ body {
 }
 
 h1 {
+  color: hsl(250, 100%, 50%);
   font-size: 100px;
 }
