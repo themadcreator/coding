@@ -2,6 +2,8 @@
 
 ### Checkout code
 
+You only have to do this once at the start.
+
 ```sh
 git clone git@github.com:themadcreator/coding.git
 cd coding
@@ -10,15 +12,16 @@ git checkout gh-pages
 
 ### Edit code
 
-Open a text editor and edit your code
+Open a text editor and edit your code.
 
 ### Send code up to github
 
+Every time you edit something, you'll need to send the changes
+up to github to see it on the web.
+
 ```sh
-git add --all .
-git commit -m "Done editing"
-git push origin gh-pages
+git add --all . && git commit -m "Done editing" && git push origin gh-pages
 ```
 
-Look at it!
+Look at it! https://themadcreator.github.io/coding/
 
