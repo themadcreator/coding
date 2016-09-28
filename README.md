@@ -14,7 +14,7 @@ You only have to do this once at the start.
 ```sh
 git clone git@github.com:themadcreator/coding.git
 cd coding
-git checkout gh-pages
+git checkout -B gh-pages
 ```
 
 
