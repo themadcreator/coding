@@ -2,7 +2,8 @@
 
 function changeColor() {
   var header = document.querySelector("h1");
-  header.style.color = "green";
+  var hue = 360 * Math.random();
+  header.style.color = "hsl(" + hue + ", 80%, 50%)";
 }
 changeColor();
 
