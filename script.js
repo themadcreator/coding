@@ -5,5 +5,5 @@ function changeColor() {
   var hue = 360 * Math.random();
   header.style.color = "hsl(" + hue + ", 80%, 50%)";
 }
-changeColor();
+setInterval(changeColor, 500);
 
